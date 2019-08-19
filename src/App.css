@@ -10,10 +10,20 @@
   margin-top: 1rem;
 }
 
-a.active{
-  color: red;
+h1{
+  color: navy;
 }
 
-.navLink{
+a{
   color: black;
+}
+
+/* a.active{
+  color: blue;
+  font-weight: bold;
+} */
+
+.active{
+  color: red;
+  font-weight: bold;
 }

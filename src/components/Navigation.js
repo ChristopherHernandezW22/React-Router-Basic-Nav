@@ -7,13 +7,13 @@ const Navigation = () => {
       <div className="App">
         <h1>React Router Mini</h1>
         <div class="navLink">
-          <NavLink exact to="/">Home</NavLink>
+          <NavLink exact to="/" activeClassName="active">Home</NavLink>
         </div>
         <div class="navLink">
-          <NavLink to="/about">About</NavLink>
+          <NavLink to="/about" activeClassName="active">About</NavLink>
         </div>
         <div class="navLink">
-          <NavLink to="/contact">Contact</NavLink>
+          <NavLink to="/contact" activeClassName="active">Contact</NavLink>
         </div>
       </div>
     </div>
