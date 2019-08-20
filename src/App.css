@@ -9,3 +9,21 @@
 .nav-item {
   margin-top: 1rem;
 }
+
+h1{
+  color: navy;
+}
+
+a{
+  color: black;
+}
+
+/* a.active{
+  color: blue;
+  font-weight: bold;
+} */
+
+.active{
+  color: red;
+  font-weight: bold;
+}
